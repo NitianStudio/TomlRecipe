@@ -2,7 +2,7 @@ package io.github.nitianstudio.fabric;
 
 import net.fabricmc.api.ModInitializer;
 
-import io.github.nitianstudio.ExampleMod;
+import io.github.nitianstudio.toml.recipe.TomlRecipe;
 
 public final class ExampleModFabric implements ModInitializer {
     @Override
@@ -12,6 +12,6 @@ public final class ExampleModFabric implements ModInitializer {
         // Proceed with mild caution.
 
         // Run our common setup.
-        ExampleMod.init();
+        TomlRecipe.init();
     }
 }

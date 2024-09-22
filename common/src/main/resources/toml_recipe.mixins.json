@@ -1,11 +1,12 @@
 {
   "required": true,
-  "package": "io.github.nitianstudio.mixin",
+  "package": "io.github.nitianstudio.toml.recipe.mixin",
   "compatibilityLevel": "JAVA_21",
   "minVersion": "0.8",
   "client": [
   ],
   "mixins": [
+    "RecipeManagerMixin"
   ],
   "injectors": {
     "defaultRequire": 1

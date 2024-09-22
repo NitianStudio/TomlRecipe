@@ -1,0 +1,25 @@
+[pattern]
+    [[pattern.item]]
+        char = 'A'
+        item = "minecraft:stick"
+        count = 1
+    [[pattern.item]]
+        char = 'B'
+        item = "minecraft:cobblestone"
+        count = 1
+    [[pattern.tag]]
+        char = 'C'
+        tag = "minecraft:wool"
+
+
+[minecraft]
+    [[minecraft.crafting_shaped]]
+        location="tr:test"
+        group = "test"
+        category = "building"
+        result = "A"
+        [[minecraft.crafting_shaped.key]]
+            key = "AA"
+        [[minecraft.crafting_shaped.key]]
+            key = "AA"
+

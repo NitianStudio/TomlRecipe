@@ -1,0 +1,4 @@
+/give @a minecraft:stone
+/give @a minecraft:stick
+/recipe give @a tr:test
+/recipe give @a *

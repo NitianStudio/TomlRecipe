@@ -2,12 +2,12 @@ package io.github.nitianstudio.neoforge;
 
 import net.neoforged.fml.common.Mod;
 
-import io.github.nitianstudio.ExampleMod;
+import io.github.nitianstudio.toml.recipe.TomlRecipe;
 
-@Mod(ExampleMod.MOD_ID)
+@Mod(TomlRecipe.MOD_ID)
 public final class ExampleModNeoForge {
     public ExampleModNeoForge() {
         // Run our common setup.
-        ExampleMod.init();
+        TomlRecipe.init();
     }
 }
